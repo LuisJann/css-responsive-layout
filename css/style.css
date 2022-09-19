@@ -166,4 +166,81 @@
     }
 }
 
+/* section 3 */
+
+.section-exp{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-exp-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-exp-card{
+    background-color: #9792e4;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.exp-card-img{
+    padding: 10px;
+}
+
+.exp-card-text{
+    padding: 10px;
+}
+
+/* RESPONSIVE AREA MAIN section 3 */
+
+@media screen and (min-width:991px) {
+    .section-exp-card{
+        flex-direction: row;
+    }
+}
+
+/* section 4 */
+
+.benefits{
+    width: 100%;
+    background-color: #9792e4;
+    padding-bottom: 20px;
+}
+
+.section-benefits{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefits-text{
+    padding: 10px 0 10px 0;
+}
+
+.benefits-card{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+}
+
+/* RESPONSIVE AREA MAIN section 4 */
+
+@media screen and (min-width:991px) {
+    .section-benefits{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card{
+        width: calc(100% / 2 - 20px);
+        margin: 10px 10px 10px 10px;
+    }
+}
+
 
