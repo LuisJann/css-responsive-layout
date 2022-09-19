@@ -22,7 +22,7 @@
 }
 
 .container{
-    width: 60%;
+    width: 80%;
     margin: 0% auto;
     display: flex;
     justify-content: space-between;
@@ -56,3 +56,114 @@
     }
     
 }
+/* /RESPONSIVE AREA HEADER */
+
+
+/* MAIN */
+
+/* section card 1  */
+
+.demo-application{
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+
+.card{
+    background-color: #0384fd;
+    margin: 0 0 10px 0;
+    width: calc(100% / 3 - 12px);
+    border-radius: 20px;
+}
+
+.card:first-child{
+    width: calc(100% / 3 * 2 - 6px);
+}
+
+.text-first-s{
+    padding: 10px;
+    
+}
+
+.image-first-s{
+    padding: 10px;
+}
+
+/* RESPONSIVE AREA MAIN section 1 */
+
+    @media screen and (max-width: 991px) {
+        .cards{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card{
+            width: 100%;
+        }
+
+        .card:first-child{
+            width: 100%;
+        }
+    }
+
+/* section card 2  */
+
+.strategic-planning{
+    background-color: #9792e4;
+    width: 100%;
+}
+
+.section-sp{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item-sp{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.item-image-sp{
+
+    /* DUBUG */
+    background-color: aquamarine;
+}
+.item-text-sp{
+
+     /* DUBUG */
+     background-color: blanchedalmond;
+}
+
+.card-sp{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card-sp-image{
+    padding: 10px;
+}
+
+.card-sp-text{
+    padding: 10px;
+}
+
+/* RESPONSIVE AREA MAIN section 2 */
+
+@media screen and (min-width:991px) {
+    .section-sp{
+        display: flex;
+    }
+}
+
+
