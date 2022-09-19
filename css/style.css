@@ -15,10 +15,12 @@
     font-size: 1.5em;
 }
 
+/* HEADER */
 
 .nav-bar{
     background-color: #0384fd;
     width: 100%;
+    
 }
 
 .container{
@@ -46,7 +48,7 @@
 
 /* RESPONSIVE AREA HEADER */
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
     .menu-icon{
         display: none;
     }
@@ -120,6 +122,7 @@
 .strategic-planning{
     background-color: #9792e4;
     width: 100%;
+    padding: 20px 0 20px 0;
 }
 
 .section-sp{
@@ -160,7 +163,7 @@
 
 /* RESPONSIVE AREA MAIN section 2 */
 
-@media screen and (min-width:991px) {
+@media screen and (min-width:992px) {
     .section-sp{
         display: flex;
     }
@@ -168,7 +171,7 @@
 
 /* section 3 */
 
-.section-exp{
+.expert{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -199,7 +202,7 @@
 
 /* RESPONSIVE AREA MAIN section 3 */
 
-@media screen and (min-width:991px) {
+@media screen and (min-width:992px) {
     .section-exp-card{
         flex-direction: row;
     }
@@ -220,6 +223,7 @@
 
 .benefits-text{
     padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 .benefits-card{
@@ -231,7 +235,7 @@
 
 /* RESPONSIVE AREA MAIN section 4 */
 
-@media screen and (min-width:991px) {
+@media screen and (min-width:992px) {
     .section-benefits{
         display: flex;
         flex-wrap: wrap;
@@ -241,6 +245,72 @@
         width: calc(100% / 2 - 20px);
         margin: 10px 10px 10px 10px;
     }
+
+
 }
+
+/* section 5 */
+.about{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+.about-text{
+    margin-bottom: 10px;
+
+    /* DEBUG */
+    background-color: aquamarine;
+}
+
+.about-img{
+
+    /* DEBUG */
+    background-color: brown;
+}
+
+@media screen and (min-width:992px) {
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-text{
+        margin-bottom: 0%;
+        margin-right: 10px;
+    }
+}
+
+/* section 6 */
+
+.cta{
+    background-color: #9792e4;
+    width: 100%;
+}
+
+.cta-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: #333333;
+    padding: 20px 0 20px 0;
+}
+
+.footer-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text-up{
+    margin-bottom: 35px;
+}
+
 
 
