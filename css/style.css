@@ -4,7 +4,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -19,6 +18,14 @@
 
 .purple{
     color: #9792e4;
+}
+
+.yellow{
+    color: #fdc15f;
+}
+
+.light-grey{
+    color: lightgray;
 }
 
 .size{
@@ -42,12 +49,11 @@
 }
 
 .button-b{
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     margin-top: 15px;
     border-radius: 20px;
     background-color: #0384fd;
     border: 0;
-    width: 80%;
 
 }
 
@@ -57,7 +63,16 @@
     border-radius: 20px;
     background-color: #9792e4;
     border: 0;
-    width: 30%;
+    font-size: 1em;
+}
+
+.button-w{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
     font-size: 1em;
 }
 
@@ -66,7 +81,6 @@
 .nav-bar{
     background-color: #0384fd;
     width: 100%;
-    
 }
 
 .container{
@@ -90,6 +104,11 @@
 .menu-xl ul li{
     margin-left: 1em;
     color: white;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
 }
 
 /* RESPONSIVE AREA HEADER */
@@ -145,7 +164,7 @@
 }
 
 .description-first-s{
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .image-first-s{
@@ -272,8 +291,6 @@
     width: 40px;
     height: 40px;
     margin: 0 auto;
-    vertical-align: middle;
-    text-align: center;
 }
 
 /* RESPONSIVE AREA MAIN section 2 */
@@ -324,7 +341,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    display: inline-block;
+    object-fit: cover;
     margin-top: 20px;
 }
 
@@ -408,15 +425,11 @@
 
 .about-text{
     margin-bottom: 10px;
-
-    /* DEBUG */
-    background-color: aquamarine;
+    width: 100%;
 }
 
 .about-img{
-
-    /* DEBUG */
-    background-color: brown;
+    width: 100%;
 }
 
 /* RESPONSIVE AREA MAIN section 5 */
