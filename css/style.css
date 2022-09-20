@@ -71,48 +71,73 @@
     flex-wrap: nowrap;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-
-
 .card{
+    display: flex;
+    flex-direction: column;
     background-color: #0384fd;
-    margin: 0 0 10px 0;
-    width: calc(100% / 3 - 12px);
+    width: 100%;
+    justify-content: center;
     border-radius: 20px;
+    margin: 20px 0 20px 0;
 }
 
-.card:first-child{
-    width: calc(100% / 3 * 2 - 6px);
+.cards{
+    margin-bottom: 20px;
 }
 
 .text-first-s{
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     
 }
 
 .image-first-s{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-first-s img{
+    width: 50%;
+    justify-content: center;
+    justify-content: flex-end;
 }
 
 /* RESPONSIVE AREA MAIN section 1 */
-
-    @media screen and (max-width: 991px) {
+/* tablet */
+    @media screen and (min-width: 768px) {
         .cards{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         .card{
-            width: 100%;
+            margin: 20px 0px 0px 20px;
+            width: calc(100% / 3 - 25px);
+            justify-content: space-between;
         }
 
         .card:first-child{
+            width: calc(100% / 3 * 2 - 22px);
+        }
+        
+        .image-first-s{
+            justify-content: flex-start;
+        }
+
+
+    }
+    /* monitor */
+    @media screen and (min-width: 992px) {
+        .card:first-child{
+            flex-direction: row;
+        }
+
+        .text-first-s {
+            width: 100%;
+        } 
+        .image-first-s img{
+            align-items: flex-end;
             width: 100%;
         }
     }
@@ -202,7 +227,7 @@
 
 /* RESPONSIVE AREA MAIN section 3 */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .section-exp-card{
         flex-direction: row;
     }
@@ -235,7 +260,7 @@
 
 /* RESPONSIVE AREA MAIN section 4 */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .section-benefits{
         display: flex;
         flex-wrap: wrap;
@@ -248,6 +273,8 @@
 
 
 }
+
+
 
 /* section 5 */
 .about{
@@ -269,7 +296,9 @@
     background-color: brown;
 }
 
-@media screen and (min-width:992px) {
+/* RESPONSIVE AREA MAIN section 5 */
+
+@media screen and (min-width:768px) {
     .about{
         display: flex;
         justify-content: space-between;
