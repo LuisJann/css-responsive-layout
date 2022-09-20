@@ -4,6 +4,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* UTLITY */
@@ -11,8 +13,34 @@
     color: white;
 }
 
+.blu{
+    color: #0384fd;
+}
+
 .size{
     font-size: 1.5em;
+}
+
+.size-5em{
+    font-size: 5em;
+}
+
+.align{
+    text-align: center;
+}
+
+.margin-b{
+    margin-bottom: 20px;
+}
+
+.button-b{
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #0384fd;
+    border: 0;
+    width: 80%;
+
 }
 
 /* HEADER */
@@ -74,7 +102,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    background-color: #0384fd;
+    background-color: #b5ddff;
     width: 100%;
     justify-content: center;
     border-radius: 20px;
@@ -85,9 +113,21 @@
     margin-bottom: 20px;
 }
 
+.card-title{
+    margin-bottom: 15px;
+}
+
+.card-description{
+    width: 80%;
+}
+
 .text-first-s{
     padding: 10px 20px 10px 20px;
     
+}
+
+.description-first-s{
+    padding-bottom: 10px;
 }
 
 .image-first-s{
@@ -96,7 +136,7 @@
 }
 
 .image-first-s img{
-    width: 50%;
+    width: 30vw;
     justify-content: center;
     justify-content: flex-end;
 }
@@ -162,28 +202,56 @@
 }
 
 .item-image-sp{
-
-    /* DUBUG */
-    background-color: aquamarine;
+    width: 100%;
 }
 .item-text-sp{
-
-     /* DUBUG */
-     background-color: blanchedalmond;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .card-sp{
     background-color: white;
     border-radius: 20px;
-    margin: 10px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
 }
 
 .card-sp-image{
     padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-planning-l{
+    width: 80%;
+}
+
+.img-planning-s{
+    width: 70%;
 }
 
 .card-sp-text{
     padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.align-c{
+    text-align: center;
+    width: 100%;
+}
+
+.arrow-icon{
+    background-color: #9792e4;
+    border-radius: 50%;
+    display: block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 /* RESPONSIVE AREA MAIN section 2 */
