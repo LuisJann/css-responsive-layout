@@ -17,8 +17,12 @@
     color: #0384fd;
 }
 
+.purple{
+    color: #9792e4;
+}
+
 .size{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .size-5em{
@@ -33,6 +37,10 @@
     margin-bottom: 20px;
 }
 
+.padding-b{
+    padding-bottom: 20px;
+}
+
 .button-b{
     padding: 10px;
     margin-top: 15px;
@@ -41,6 +49,16 @@
     border: 0;
     width: 80%;
 
+}
+
+.button-v{
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #9792e4;
+    border: 0;
+    width: 30%;
+    font-size: 1em;
 }
 
 /* HEADER */
@@ -152,7 +170,7 @@
         }
 
         .card{
-            margin: 20px 0px 0px 20px;
+            margin: 20px 0px 0px 19px;
             width: calc(100% / 3 - 25px);
             justify-content: space-between;
         }
@@ -198,14 +216,14 @@
 .item-sp{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 50px;
 }
 
 .item-image-sp{
     width: 100%;
 }
 .item-text-sp{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -213,7 +231,6 @@
     background-color: white;
     border-radius: 20px;
     margin: 0 auto;
-    width: 70%;
     text-align: center;
 }
 
@@ -224,11 +241,11 @@
 }
 
 .img-planning-l{
-    width: 80%;
+    width: 100%;
 }
 
 .img-planning-s{
-    width: 70%;
+    width: 100%;
 }
 
 .card-sp-text{
@@ -242,6 +259,11 @@
     width: 100%;
 }
 
+.card-sp-description{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .arrow-icon{
     background-color: #9792e4;
     border-radius: 50%;
@@ -249,7 +271,7 @@
     padding: 10px;
     width: 40px;
     height: 40px;
-    margin-top: 50px;
+    margin: 0 auto;
     vertical-align: middle;
     text-align: center;
 }
@@ -271,6 +293,10 @@
     margin: 0 auto;
 }
 
+.exp-title{
+    margin: 40px 0 40px 0;
+}
+
 .section-exp-text{
     text-align: center;
     margin-top: 10px;
@@ -287,10 +313,19 @@
 
 .exp-card-img{
     padding: 10px;
+    margin: 0 auto;
 }
 
 .exp-card-text{
     padding: 10px;
+}
+
+.testimonial-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /* RESPONSIVE AREA MAIN section 3 */
@@ -298,6 +333,20 @@
 @media screen and (min-width:768px) {
     .section-exp-card{
         flex-direction: row;
+        text-align: left;
+    }
+
+    .exp-card-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 30px;
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    .exp-card-text{
+        padding: 10px 0 10px 0;
     }
 }
 
@@ -340,6 +389,12 @@
     }
 
 
+}
+
+@media screen and (min-width:992px) {
+    .benefits-card{
+        width: calc(100% / 3 - 20px);
+    }
 }
 
 
