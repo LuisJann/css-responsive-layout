@@ -138,7 +138,7 @@
     width: 80%;
     margin: 0 auto;
     flex-wrap: nowrap;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .card{
@@ -435,6 +435,13 @@
 
 .about-img{
     width: 100%;
+    position: relative;
+}
+
+.quot{
+    position: absolute;
+    top: 0;
+    left: 130px;
 }
 
 /* RESPONSIVE AREA MAIN section 5 */
